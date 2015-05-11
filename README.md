@@ -35,8 +35,8 @@ Ideally, they should be at least two kinds of test suite: unit tests and more fu
 
 Please consider using TDD while implementing the unit test part.
 
-__Note: do not include your production or sandbox credentials into your package__
-
+__Note: Do not include your production or sandbox credentials in the repository (please keep in mind that if you
+  committed them once, they may be still tracked in the git history__
 ## Documentation
 
 Your implementation should be documented.
@@ -70,7 +70,8 @@ You have to provide a technical contact able to fix some eventual security issue
 
 Note: in order to be integrated in the official Be2bill repository, an exhaustive code review will be made by our technical team
 
-__Note: Do not include your production or sandbox credentials in the repository__
+__Note: Do not include your production or sandbox credentials in the repository (please keep in mind that if you
+  committed them once, they may be still tracked in the git history__
 
 ## Contact
 
