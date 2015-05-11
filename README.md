@@ -23,6 +23,8 @@ The implemented code shall remain as clean and readable as possible. Please try 
 
 Some programming languages use to propose some kind of formalism (RFV). It is a good practice to follow the popular RFC in term of source code formatting and packaging.
 
+The code has to be written in english.
+
 ## Tests
 
 It is a required and very important point to deliver an automated test suite with the implementation.
@@ -43,6 +45,7 @@ The required documentation should be composed of
 - some in code documentation (like javadoc, phpdoc or your programming language documentation system)
 
 This documentation should be kept up to date and at least cover the public interface of your implementation.
+The documentation and the commit messages have to be written in english.
 
 ## Packaging
 
