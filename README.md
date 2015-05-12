@@ -12,10 +12,11 @@ This document reference the guidelines to implement and package Be2bill API in d
 5. [Contact] (#contact)
 
 ## Code
-The implementation shall remain as close as possible that the PHP one for the public method API. See: [PHP Merchant API] (http://github.com/be2bill/php-merchant-api)
+The implementation should remain as close as possible that the PHP one for the public method API. See: [PHP Merchant API] (http://github.com/be2bill/php-merchant-api)
   This point will ensure an easily documentation process for the Be2bill team.
+  This is not a mandatory point but to keep a good coherency between all implementations, it would be just great to have some similar looking cross languages API.
 
-Some programming languages will sometime have restrictions (hard typage, non object paradigm ...). These restrictions should be
+Some programming languages will sometime have restrictions (hard types, non object paradigm ...). These restrictions should be
   managed case by case. You should contact the [technical team] (#contact) to debate on the best compromises.
 
 The implemented code shall remain as clean and readable as possible. Please try to respect your programming language's
