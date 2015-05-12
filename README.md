@@ -1,6 +1,6 @@
 # Be2bill Merchant API guidelines
 
-This document reference the guidelines to implement and package Be2bill API in different languages
+This document references the guidelines to implement and package Be2bill API in different languages
 
 #### Table of Contents
 
@@ -63,8 +63,10 @@ The packaging shall contains the following things :
 ## Security
 
 As a payment library, security should be considered with attention.
-__Do not store on any mechanism (storage, database, cache ...) any sensible data.__
- See [https://pcisecuritystandards.org/minisite/en/] for more information.
+
+__Note: Do not store on any mechanism (storage, database, cache ...) any sensible data.__
+
+See https://pcisecuritystandards.org/minisite/en/ for more information.
  As a rule of thumb, you should never log, store (...) the card number, cryptogram or expiration date.
 
 You have to provide a technical contact able to fix some eventual security issues.
