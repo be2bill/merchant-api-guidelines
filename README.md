@@ -19,7 +19,8 @@ This point will ensure an easy documentation process for the Be2bill team.
 This is not a mandatory point but to keep a good consistency between all implementations, it would be great to have some similar-looking cross-languages API.
 
 Some programming languages will sometime have restrictions (hard types, non-object paradigm ...). These restrictions should be
-  managed on a case by case basis. You should contact the [technical team] (#contact) to debate on the best compromises.
+  managed on a case by case basis.
+You should contact the [technical team] (#contact) to debate on the best compromises.
 
 The implemented code shall remain as clean and readable as possible. Please try to respect your programming language's
  best practices and paradigms.
