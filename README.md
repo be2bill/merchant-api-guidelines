@@ -13,7 +13,8 @@ This document references the guidelines to implement and package the Be2bill API
 
 ## Code
 The implementation should remain as close as possible to the PHP one for the public method API.
-See: [PHP Merchant API] (http://github.com/be2bill/php-merchant-api)
+See: [PHP Merchant API] (http://github.com/be2bill/php-merchant-api).
+
 This point will ensure an easy documentation process for the Be2bill team.
 This is not a mandatory point but to keep a good consistency between all implementations, it would be great to have some similar-looking cross-languages API.
 
