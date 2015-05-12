@@ -41,11 +41,16 @@ __Note: Do not include your production or sandbox credentials in the repository 
 ## Documentation
 
 Your implementation should be documented.
-The required documentation should be composed of
-- a main documentation page with some using examples
-- some in code documentation (like javadoc, phpdoc or your programming language documentation system)
+
+The required documentation should be composed of:
+
+- A main documentation page (how to deploy, how to use, limitations ...)
+- In-code documentation (like javadoc, phpdoc or your programming language documentation system)
+- Code examples (a simple directlink payment, a form payment, a refund ...)
+
 
 This documentation should be kept up to date and at least cover the public interface of your implementation.
+
 The documentation and the commit messages have to be written in english.
 
 ## Packaging
@@ -54,7 +59,7 @@ The packaging shall contains the following things :
 
 - Installation / compilation / configuration / deployment notes
 - Guidelines to run the test suite
-- Code examples (at least a form and a directlink transaction)
+- Code examples (at least a form and a directlink transaction) see [documentation] (#documentation)
 - A packaging system ([composer] (https://getcomposer.org/), [pypy] (http://pypy.org), ...)
   or a description of the package dependencies (test suite tools, libraries)
 - A license file
@@ -66,8 +71,9 @@ As a payment library, security should be considered with attention.
 
 __Note: Do not store on any mechanism (storage, database, cache ...) any sensible data.__
 
-See https://pcisecuritystandards.org/minisite/en/ for more information.
- As a rule of thumb, you should never log, store (...) the card number, cryptogram or expiration date.
+See [the PCI-DSS standard] (https://pcisecuritystandards.org/minisite/en/) for more information.
+
+As a rule of thumb, you should never log, store (...) the card number, cryptogram or expiration date.
 
 You have to provide a technical contact able to fix some eventual security issues.
 
